@@ -1,0 +1,78 @@
+body {
+    padding-top: 76px;
+    font-family: "Public Sans", sans-serif;
+}
+
+:root {
+    --color-custom: #08adfa;
+    --color-custom-hover: #0798db;
+    --color-warning: #f4b400;
+    --color-warning-hover: #d39a00;
+    --color-danger: #dc3545;
+    --color-danger-hover: #bb2d3b;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand, .card-header {
+    font-weight: 800;
+}
+
+.color-custom {
+    background-color: var(--color-custom);
+}
+
+.btn-primary {
+    background-color: var(--color-custom);
+    border-color: var(--color-custom);
+    color: #ffffff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: var(--color-custom-hover);
+    border-color: var(--color-custom-hover);
+    color: #ffffff;
+}
+
+.btn-primary:focus,
+.btn-primary:active:focus {
+    box-shadow: 0 0 0 0.25rem rgba(8, 173, 250, 0.25);
+}
+
+.btn-warning {
+    background-color: var(--color-warning);
+    border-color: var(--color-warning);
+    color: #212529;
+}
+
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active {
+    background-color: var(--color-warning-hover);
+    border-color: var(--color-warning-hover);
+    color: #212529;
+}
+
+.btn-warning:focus,
+.btn-warning:active:focus {
+    box-shadow: 0 0 0 0.25rem rgba(244, 180, 0, 0.25);
+}
+
+.btn-danger {
+    background-color: var(--color-danger);
+    border-color: var(--color-danger);
+    color: #ffffff;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active {
+    background-color: var(--color-danger-hover);
+    border-color: var(--color-danger-hover);
+    color: #ffffff;
+}
+
+.btn-danger:focus,
+.btn-danger:active:focus {
+    box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
+}
